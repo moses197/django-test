@@ -24,3 +24,7 @@ urlpatterns = [
     path('about/', views.about),
     path('posts/', include('posts.urls'))
 ]
+
+
+# password is 'test_test'
+# username is 'moses'
