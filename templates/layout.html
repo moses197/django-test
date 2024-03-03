@@ -16,7 +16,8 @@
     <nav>
         <a href="/">Home</a> |
         <a href="/about">About</a> |
-        <a href="{% url 'posts:list' %}">News</a> 
+        <a href="{% url 'posts:list' %}">News</a> |``
+        <a href="{% url 'users:register' %}">Rocket</a>
     </nav>
     <main>
         {% block content %}{% endblock %}
