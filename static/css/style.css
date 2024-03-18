@@ -52,3 +52,18 @@ a:hover {
     width: 100%;
     max-width: 800px;
 }
+
+.logut {
+    display: inline-block;
+
+}
+
+.logut-button {
+    font-size: 2.5rem;
+    background-color: rgb(0, 0, 0, 0);
+    border: none;
+}
+
+.logut-button:hover {
+    opacity: .85;
+}
